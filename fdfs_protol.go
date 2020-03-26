@@ -173,7 +173,6 @@ func (s *StorageServer) SetStorePathIndex(storePathIndex int) {
 	s.storePathIndex = storePathIndex
 }
 
-
 type trackerHeader struct {
 	pkgLen int64
 	cmd    int8

@@ -22,7 +22,7 @@ func TestParserFdfsConfig(t *testing.T) {
 }
 func TestNewFdfsClientByTracker(t *testing.T) {
 	tracker := &Tracker{
-		[]string{"10.0.1.32"},
+		[]string{"172.16.10.10"},
 		22122,
 	}
 	_, err := NewFdfsClientByTracker(tracker)
